@@ -16,6 +16,7 @@ Route::get('/about', 'PagesController@about');
 Route::get('/services', 'PagesController@services');    
 
 Route::resource('posts', 'PostsController');
+Route::put('/posts/{post}/desimg', 'PostsController@destroyImage');
 Auth::routes();
 
 Route::get('/dashboard', 'DashboardController@index');
