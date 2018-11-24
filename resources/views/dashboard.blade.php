@@ -18,8 +18,7 @@
                     <br><br>
                     <table class="table table-striped">
                         <tr>
-                            <th>Title</th>
-                            <th>Body</th>
+                            <th>Title</th>                            
                             <th></th>
                         </tr>
                         @foreach ($posts as $post)

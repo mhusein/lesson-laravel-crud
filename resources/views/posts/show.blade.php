@@ -5,6 +5,8 @@
     <br><br>
     <h1>{{$post->title}}</h1>    
     <hr>
+    <center><img src="/storage/cover_images/{{$post->cover_image}}" alt="" style="height:350px;"></center>
+    <br>
     <div>
         {!!$post->body!!}
     </div>
@@ -20,4 +22,6 @@
         {!!Form::close()!!}
         @endif
     @endif
+    <br>
+    <br>
 @endsection        
